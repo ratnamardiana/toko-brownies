@@ -1,0 +1,227 @@
+/*
+Background color :          #ffcccc
+Title Color :               #ffccff
+Text Color:                 #ccffcc
+Text Dark Color:            #ffffcc
+Table Heading Color:        #ffe0b3
+Table Alternatif Color :    #d6f5f5
+*/
+
+html {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(208, 233, 225);
+}
+body {
+    
+    margin: 0;
+    padding: 0;
+}
+
+
+.layar-dalam {
+    width: 1000px;
+    margin: auto;
+    
+}
+
+.layar-penuh {
+    width: 100%;
+}
+
+
+
+nav {
+    z-index: 100;
+    color: burlywood;
+    text-align: center;
+    position: fixed;
+    border-bottom: 1px solid #ddd;
+    line-height: 60px;
+    width: 100%;
+}
+
+nav.putih {
+    background-color: #fff;
+}
+
+nav .logo {
+    float: left;
+    position: relative;
+    line-height: 55px;
+    text-align: center;
+    
+}
+
+nav .logo img {
+    vertical-align: middle;
+    width: 120px;
+}
+
+
+
+nav .menu {
+    float: right;
+    height: 60px;
+    max-width: 600px;
+}
+
+nav .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav .menu ul li {
+    list-style-type: none;
+    float: left;
+    line-height: 60px;
+}
+
+nav ul li a {
+    color: rgb(4, 7, 8);
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+    text-decoration: n;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* pengaturan header */
+header {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    z-index: 2;
+}
+
+header video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -2;
+}
+
+header .intro {
+    z-index: 100;
+    color: chocolate;
+    text-align: center;
+    position:relative;
+    top: 50%;
+}
+
+header .intro h3 {
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.tombol {
+    background-color: rgb(192, 192, 91);
+    height: 50px;
+    line-height: 42px;
+    color: whitesmoke;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 20px 0px 20px;
+    font-size: 15px;
+    border-radius: 4px;
+
+}
+
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 50%;
+    z-index: -1;
+}
+
+.tm-container {
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tm-main-content {background-color: whitesmoke;}
+
+.tm-page-head-container { text-align: center;}
+
+.tm-page-header {
+    display: inline-block;
+    vertical-align: baseline;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    font-size: 2.1rem;
+    font-weight: 400;
+} 
+
+.tm-page-icon {
+    display: inline-block;
+    vertical-align: baseline;
+    padding: 15px;
+}
+
+.tm-section-header {
+    color: rgb(87, 26, 2);
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+td {
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.tm-text-left { text-align: left;}
+
+th {
+    color:rgb(24, 5, 2);
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+tr:nth-child(odd) { background-color: rgb(77, 152, 182);}
+
+tr.tm-tr-header {
+    background-color: lightsalmon;
+    height: 50px;
+}
+
+.tm-section {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+.tm-section-small {
+    max-width: 490px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
